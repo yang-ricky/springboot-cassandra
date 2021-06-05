@@ -1,11 +1,10 @@
-package com.bilaldemir.model;
+package com.example.model;
 
-import org.springframework.data.annotation.Id;
 import org.springframework.data.cassandra.mapping.Column;
 import org.springframework.data.cassandra.mapping.PrimaryKey;
 import org.springframework.data.cassandra.mapping.Table;
 
-import com.bilaldemir.Utils.Constans;
+import com.example.Utils.Constans;
 
 @Table(value = Constans.USER_TABLE)
 public class User {

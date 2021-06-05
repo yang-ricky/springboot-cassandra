@@ -3,4 +3,4 @@ ADD build/libs/*.jar /
 ADD version.txt /version.txt
 ADD build.gradle /build.gradle
 EXPOSE 8090
-ENTRYPOINT [ "java", "-jar", "cassandra-spring-example-0.0.1.jar"]
+ENTRYPOINT [ "java", "-jar", "spring-boot-cassandra-0.0.1.jar"]

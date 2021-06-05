@@ -1,4 +1,4 @@
-package com.bilaldemir.config;
+package com.example.config;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import org.springframework.data.cassandra.config.java.AbstractCassandraConfigura
 import org.springframework.data.cassandra.repository.config.EnableCassandraRepositories;
 
 @Configuration
-@EnableCassandraRepositories(basePackages = { "com.bilaldemir.repository" })
+@EnableCassandraRepositories(basePackages = {"com.example.repository"})
 public class CassandraConfig extends AbstractCassandraConfiguration {
 
     @Value("${spring.data.cassandra.keyspace-name}")

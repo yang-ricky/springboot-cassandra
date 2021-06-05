@@ -1,4 +1,4 @@
-package com.bilaldemir.repository;
+package com.example.repository;
 
 import java.util.List;
 

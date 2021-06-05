@@ -1,4 +1,4 @@
-package com.bilaldemir.Utils;
+package com.example.Utils;
 
 public class Constans {
 

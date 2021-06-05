@@ -1,4 +1,4 @@
-package com.bilaldemir.service;
+package com.example.service;
 
 import java.util.Collections;
 import java.util.List;
@@ -10,10 +10,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bilaldemir.controller.UserController;
-import com.bilaldemir.model.User;
-import com.bilaldemir.repository.CassandraQueryExecutor;
-import com.bilaldemir.repository.UserRepository;
+import com.example.controller.UserController;
+import com.example.model.User;
+import com.example.repository.CassandraQueryExecutor;
+import com.example.repository.UserRepository;
 import com.datastax.driver.core.Row;
 
 @Service
