@@ -1,0 +1,13 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: rickyKeyspace
+      contact-points: 47.103.138.95
+      port: 9042
+      
+server:
+  port: 8084
+  
+logging:
+  level:
+    com.bilaldemir: DEBUG
